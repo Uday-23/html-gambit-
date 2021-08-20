@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <style>
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-image: url(chess.jpg);
+        }
+        
+        button {
+            background-color: #f0f7f0;
+            width: 100%;
+            color: rgba(25, 36, 29, 0.103);
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        form {
+            border: 3px solid #5e3636;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid rgb(10, 10, 10);
+            box-sizing: border-box;
+        }
+        
+        button:hover {
+            opacity: 0.7;
+        }
+        
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+            color: black;
+            background-color: rosybrown;
+        }
+        
+        .container {
+            padding: 25px;
+            background-color: rgb(114, 85, 85);
+        }
+        
+        .log {
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1> LOGIN FORM </h1>
+    </center>
+    <form>
+        <div class="container">
+            <label>USERNAME : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>PASSWORD : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit" class="log">LOGIN</button>
+            <input type="checkbox" checked="checked"> REMEMBER ME
+            <button type="button" class="cancelbtn"> CANCEL</button> Forgot <a href="chess world.html"> PASSWORD ? </a>
+        </div>
+    </form>
+</body>
+
+</html>
